@@ -1,6 +1,6 @@
 describe("any testing", () => {
   it("should return any value", () => {
-    //! any tidak rkomendasi dn jgn terlalu sering digunakan
+    //! any tidak rkomendasi dan jgn terlalu sering digunakan
     // TODO berikut ini bentuk array
     const value: any[] = ["dandy", 100, true];
     console.info(value[0]);
@@ -8,7 +8,7 @@ describe("any testing", () => {
     // bisa melakukan insert data juga
     const value2: any = {
       id: 1,
-      nama: "Dandy",
+      nama: "value",
       status: true,
     };
 

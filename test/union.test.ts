@@ -1,4 +1,5 @@
-describe("Union Test", () => {
+describe("Union test", () => {
+  // Union Type
   //   it("should |", () => {
   //     let nama: string | number | boolean = "Eko";
   //     console.info(nama);
@@ -20,7 +21,7 @@ describe("Union Test", () => {
         ` `;
       }
     }
-
+    expect(process("Testing")).toBe("Testing");
     expect(process("Dandy")).toBe("DANDY");
     expect(process(12)).toBe(13);
     expect(process(true)).toBe(false);

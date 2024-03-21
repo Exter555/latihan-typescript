@@ -6,7 +6,6 @@ describe("testing", () => {
   it("readonly array", () => {
     const hobies: ReadonlyArray<string> = ["Membaca", "Menulis"];
     console.info(hobies);
-
     // ! tidak bisa melakukan pengisian data lagi karena hanya readonly / khusus membaca
     // ! seperti hobies[0] = "Turu"
   });
